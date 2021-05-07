@@ -2,13 +2,11 @@
 <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
 <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.6.0/aframe/build/aframe-ar.js"></script>
   <body style='margin : 0px; overflow: hidden;'>
-	  <a-scene embedded arjs='sourceType: webcam;'>
-		<a-box position="-1.54983 0.74984 -0.10526" material="color:#25e222" rotation="-1.4409888547540204 0.29965692685342055 -41.91243567161485" scale="0.86272 1 1" geometry=""></a-box>
-    		<a-cylinder position="0 0.75 0" radius="0.5" height="1.5" color="#FFC65D" rotation="-89.84322002328386 0 0" scale="1.0271 1 1" material="color:#cb5cff" geometry=""></a-cylinder>
-			<a-entity text="value:History of the Sheffield College;"></a-entity>
-		  
-		   	<a-image src="CityCampus.jpg"></a-image>
-		  
-		<a-marker-camera preset='hiro'></a-marker-camera>
+	<a-scene arjs="sourceType: webcam;" class="fullscreen" inspector="" keyboard-shortcuts="" screenshot="" vr-mode-ui="" aframe-inspector-removed-embedded="undefined"><canvas class="a-canvas" data-aframe-canvas="true" width="300" height="150"></canvas>
+		<a-box position="-3.08738 1.06214 0.31235" material="color:#25e222" rotation="-1.4409888547540204 0.29965692685342055 -41.91243567161485" scale="0.42482 0.62678 1" geometry=""></a-box>
+    		<a-cylinder position="2.37487 0.95491 0.33945" radius="0.5" height="1.5" color="#FFC65D" rotation="-89.84322002328386 0 0" scale="0.96958 0.86215 0.71513" material="color:#cb5cff" geometry=""></a-cylinder>
+			<a-entity text="value:History of the Sheffield College" position="1.23135 1.36806 -0.81325" rotation="-83.76872147930688 0 0" scale="8.03628 5.96848 1.38068"></a-entity>
+			<a-image src="CityCampus.jpg" position="-0.25538 0.39049 -0.00345" rotation="-89.88561890012355 0 0" scale="8.61392 2.64776 0.00001" material="" geometry=""></a-image>
+		<a-marker-camera preset="hiro" material="" arjs-anchor="" camera="" data-aframe-inspector-original-camera=""></a-marker-camera>
 	</a-scene>
 </body>
