@@ -1,0 +1,55 @@
+<!-- AR.js by @jerome_etienne - github: https://github.com/jeromeetienne/ar.js - info: https://medium.com/arjs/augmented-reality-in-10-lines-of-html-4e193ea9fdbf -->
+<script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+<script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.6.0/aframe/build/aframe-ar.js"></script>
+<body style='margin : 0px; overflow: hidden;'>
+	<!-- Camera -->	
+	  <a-scene embedded arjs='sourceType: webcam;'>
+	<!-- College Images -->
+		    <a-image src="GranvilleCollege.jpg" position="-5.60807 1 0.88673" rotation="-90 0 0" scale="1.5 1 1" material="" geometry=""> </a-image>
+		    <a-image src="CastleDemo.jpg" position="1.97964 1 1.30996" rotation="-90 0 0" scale="1.5 1 1" material="" geometry=""> </a-image>
+		    <a-image src="CityCollege.jpg" position="4.50554 1 -0.85126" rotation="-90 0 0" scale="1.5 1 1" material="" geometry=""> </a-image>
+		    <a-image src="HillsboroughCollege.jpg" position="2.09762 1 -2.06636" rotation="-90 0 0" scale="1.5 1 1" material="" geometry=""> </a-image>
+		    <a-image src="NortonCollege.jpg" position="6.13884 1 1.62397" rotation="-90 0 0" scale="1.5 1 1" material="" geometry=""> </a-image>
+		    <a-image src="RichmondCollege.jpg" position="-5.63517 1 -1.82974" rotation="-90 0 0" scale="1.5 1 1" material="" geometry=""> </a-image>
+	  	  <a-image src="RichmondField.jpg" position="-1.06649 1 1.44769" rotation="-90 0 0" scale="1.5 1 1" material="" geometry=""> </a-image>
+		    <a-image src="StJamesRP.jpg" position="8.10065 1 -0.74564" rotation="-90 0 0" scale="1.5 1 1" material="" geometry=""> </a-image>
+		    <a-image src="StradbrokeSchool.jpg" position="-1.70199 1 -0.76319" rotation="-90 0 0" scale="1.5 1 1" material="" geometry=""> </a-image>
+	<!-- College Titles -->
+		    <a-text value="Richmond College" position="-4.42664 1 -1.84387" rotation="-90 0 0" text=""></a-text>
+	  	  <a-text value="Hillsborough College" position="0.89046 1 -0.38607" rotation="-90 0 0" text=""></a-text>
+	  	  <a-text value="Granville College" position="-4.40292 1 0.73568" rotation="-90 0 0" text=""></a-text>
+	  	  <a-text value="Stradbroke College" position="-1.87818 1 -1.52176" rotation="-90 0 0" text=""></a-text>
+	  	  <a-text value="Castle College Demolition" position="0.74012 1 0.49229" rotation="-90 0 0" text=""></a-text>
+	  	  <a-text value="Norton College" position="3.38807 1 1.37307" rotation="-90 0 0" text=""></a-text>
+	  	  <a-text value="City College" position="5.42721 1 -0.86019" rotation="-90 0 0" text=""></a-text>
+		    <a-text value="St.James Retail Park" position="7.00705 1 -1.51515" rotation="-90 0 0" text=""></a-text>
+		     <a-text value="Richmond Park" position="-1.68811 1 0.53076" rotation="-90 0 0" text=""></a-text>
+  <!-- College Facts -->
+    		<a-text value="Richmond College was built in 1960 on the same land as Brook secondary school. In the coming years they shared classrooms between the two buildings. The College was later renamed to Stradbroke College around 1988/1989." position="-5.77677 1 -0.74165" rotation="-90 0 0" text="" scale="0.57083 0.52488 0.52488"></a-text>
+		    <a-text value="Stradbroke College then closed in 1990, Both the Richmond and Brook buildings were flattened creating housing space and Richmond park." position="-2.02997 1 -2.0917" rotation="-90 0 0" text="" scale="0.57083 0.52488 0.52488"></a-text>
+		    <a-text value="Granville College was built in 1961. It was later renamed to castle college around the time Richmond college was also renamed." position="-5.82897 1 1.89756" rotation="-90 0 0" text="" scale="0.57083 0.52488 0.52488"></a-text>
+		    <a-text value="Castle College was demolished in 2009. This space was then used to make housing space." position="0.78557 1 2.10725" rotation="-90 0 0" text="" scale="0.57083 0.52488 0.52488"></a-text>
+		    <a-text value="City College replaced Castle College with a new building across the road. The building cost around £52 million and was finished in 2010." position="3.84622 1 -1.66566" rotation="-90 0 0" text="" scale="0.57083 0.52488 0.52488"></a-text>
+		    <a-text value="Hillsborough College was built in 2005 costing £27 million; combining the Parson Cross and Loxley sites. An extension was built around the time Norton College was demolished to make up for the lost facilities, costing £8.8 million." position="0.44641 1 -1.11612" rotation="-90 0 0" text="" scale="0.57083 0.52488 0.52488"></a-text>
+		    <a-text value="The oldest parts of Noton College were built in the 1950’s. The College was mainly for journalism and photography. It was later demolished in 2015, to make space for a retail park that was finished in 2018." position="4.29995 1 0.6619" rotation="-90 0 0" text="" scale="0.57083 0.52488 0.52488"></a-text>
+	<!-- Backgrounds -->
+		    <a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="-4.41935 0.9 -0.73379" scale="-0.03 0.007 0.01" material="color:#000000" geometry=""></a-plane>
+    		<a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="-3.52315 0.9 -1.82765" scale="0.02 -0.003 0.01" material="color:#000000" geometry=""></a-plane>
+		    <a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="-0.93177 0.9 -1.49565" scale="0.021 -0.003 0.01" material="color:#000000" geometry=""></a-plane>
+    		<a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="1.94872 0.9 -0.39666" scale="0.022 -0.003 0.01" material="color:#000000" geometry=""></a-plane>
+    		<a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="-4.56728 0.9 1.91163" scale="0.028 0.005 0.00001" material="color:#000000" geometry=""></a-plane>
+    		<a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="-0.91759 0.9 0.54147" scale="0.017 0.003 0.01" material="color:#000000" geometry=""></a-plane>
+    		<a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="-0.70566 0.9 -2.10141" scale="0.028 0.00476 0.01" material="color:#000000" geometry=""></a-plane>
+    		<a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="1.84612 0.9 -1.09176" scale="0.03 0.007 0.01" material="color:#000000" geometry=""></a-plane>
+    		<a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="-3.57281 0.9 0.76545" scale="0.019 0.003 0.01" material="color:#000000" geometry=""></a-plane>
+    		<a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="2.05471 0.9 2.12685" scale="0.026 0.004 0.01" material="color:#000000" geometry=""></a-plane>
+	    	<a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="5.25684 0.9 -1.69641" scale="0.03 0.004 0.01" material="color:#000000" geometry=""></a-plane>
+    		<a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="1.98718 0.9 0.48251" scale="0.026 0.003 0.01" material="color:#000000" geometry=""></a-plane>
+    		<a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="5.72749 0.9 0.67385" scale="0.03 0.007 0.01" material="color:#000000" geometry=""></a-plane>
+    		<a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="8.0731 0.9 -1.52536" scale="0.022 0.003 0.01" material="color:#000000" geometry=""></a-plane>
+    		<a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="4.14856 0.9 1.40639" scale="0.016 0.004 0.01" material="color:#000000" geometry=""></a-plane>
+    		<a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="6.04265 0.9 -0.84416" scale="0.013 0.003 0.01" material="color:#000000" geometry=""></a-plane>
+	<!-- Hiro Marker -->
+	      <a-marker-camera preset="hiro"></a-marker-camera>
+  </a-scene>
+</body>
