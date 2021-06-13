@@ -1,2 +1,2 @@
 # Hi there, 
-# Welcome to my Virtual and Augmented and Reality Github Page.
+# Welcome to my Virtual and Augmented and Reality Repository.
