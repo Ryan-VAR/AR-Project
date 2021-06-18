@@ -4,73 +4,76 @@
 <body style='margin : 0px; overflow: hidden;'>
 	<!-- Camera -->	
 	<a-scene embedded arjs='sourceType: webcam;'>
-  <!-- College Images -->
-		  <a-image src="GranvilleCollege.jpg" position="-4.4276 1 1.05372" rotation="-90 0 0" scale="1 0.5 1" material="" geometry=""> </a-image>
-		  <a-image src="CastleDemo.jpg" position="1.61723 1 0.48764" rotation="-90 0 0" scale="1 0.5 1" material="" geometry=""> </a-image>
-		  <a-image src="CityCollege.jpg" position="3.50926 1 -0.84285" rotation="-90 0 0" scale="1 0.5 1" material="" geometry=""> </a-image>
-	  	<a-image src="HillsboroughCollege.jpg" position="0.9963 1 -0.88481" rotation="-90 0 0" scale="1 0.5 1" material="" geometry=""> </a-image>
-	    <a-image src="NortonCollege.jpg" position="4.81415 1 1.18349" rotation="-90 0 0" scale="1 0.5 1" material="" geometry=""> </a-image>
-	    <a-image src="RichmondCollege.jpg" position="-4.69031 1 -1.07966" rotation="-90 0 0" scale="1 0.5 1" material="" geometry=""> </a-image>
-	    <a-image src="RichmondField.jpg" position="-1.31163 1 0.66004" rotation="-90 0 0" scale="1 0.5 1" material="" geometry=""> </a-image>
-	    <a-image src="StradbrokeSchool.jpg" position="-1.56287 1 -0.44162" rotation="-90 0 0" scale="1 0.5 1" material="" geometry=""> </a-image>
+	<!-- Project Title -->
+		<a-text value="Richmond College" position="-4.03973 1 -0.95026" rotation="-90 0 0" text="" scale="0.5 0.5 1"></a-text>
+      		<a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="-4.41838 1 0.04133" scale="-0.003 0.002 0.01" material="color:#000000" geometry=""></a-plane>
+  	<!-- College Images -->
+	   	<a-image src="GranvilleCollege.jpg" position="-4.4276 1 1.05372" rotation="-90 0 0" scale="1 0.5 1" material="" geometry=""> </a-image>
+	    	<a-image src="CastleDemo.jpg" position="1.61723 1 0.48764" rotation="-90 0 0" scale="1 0.5 1" material="" geometry=""> </a-image>
+	   	<a-image src="CityCollege.jpg" position="3.50926 1 -0.84285" rotation="-90 0 0" scale="1 0.5 1" material="" geometry=""> </a-image>
+		<a-image src="HillsboroughCollege.jpg" position="0.9963 1 -0.88481" rotation="-90 0 0" scale="1 0.5 1" material="" geometry=""> </a-image>
+		<a-image src="NortonCollege.jpg" position="4.81415 1 1.18349" rotation="-90 0 0" scale="1 0.5 1" material="" geometry=""> </a-image>
+		<a-image src="RichmondCollege.jpg" position="-4.69031 1 -1.07966" rotation="-90 0 0" scale="1 0.5 1" material="" geometry=""> </a-image>
+		<a-image src="RichmondField.jpg" position="-1.31163 1 0.66004" rotation="-90 0 0" scale="1 0.5 1" material="" geometry=""> </a-image>
+		<a-image src="StradbrokeSchool.jpg" position="-1.56287 1 -0.44162" rotation="-90 0 0" scale="1 0.5 1" material="" geometry=""> </a-image>
 	<!-- College Titles -->
-		  <a-text value="Richmond College" position="-4.03973 1 -0.95026" rotation="-90 0 0" text="" scale="0.5 0.5 1"></a-text>
-	  	<a-text value="Hillsborough College" position="1.75236 1 -0.86643" rotation="-90 0 0" text="" scale="0.5 0.5 1"></a-text>
-	  	<a-text value="Granville College" position="-3.82988 1 0.9661" rotation="-90 0 0" text="" scale="0.5 0.5 1"></a-text>
-	  	<a-text value="Stradbroke College" position="-1.32961 1 -0.87673" rotation="-90 0 0" text="" scale="0.5 0.5 1"></a-text>
-	  	<a-text value="Castle College Demolition" position="1.67051 1 0.91549" rotation="-90 0 0" text="" scale="0.5 0.5 1"></a-text>
-	    <a-text value="Norton College" position="3.3752 1 1.12061" rotation="-90 0 0" text="" scale="0.5 0.5 1"></a-text>
-	    <a-text value="City College" position="4.30975 1 -0.85163" rotation="-90 0 0" text="" scale="0.5 0.5 1"></a-text>
-		  <a-text value="Richmond Park" position="-0.5216 1 0.62082" rotation="-90 0 0" text="" scale="0.5 0.5 1"></a-text>
+	    	<a-text value="Richmond College" position="-4.03973 1 -0.95026" rotation="-90 0 0" text="" scale="0.5 0.5 1"></a-text>
+	    	<a-text value="Hillsborough College" position="1.75236 1 -0.86643" rotation="-90 0 0" text="" scale="0.5 0.5 1"></a-text>
+	    	<a-text value="Granville College" position="-3.82988 1 0.9661" rotation="-90 0 0" text="" scale="0.5 0.5 1"></a-text>
+	    	<a-text value="Stradbroke College" position="-1.32961 1 -0.87673" rotation="-90 0 0" text="" scale="0.5 0.5 1"></a-text>
+	    	<a-text value="Castle College Demolition" position="1.67051 1 0.91549" rotation="-90 0 0" text="" scale="0.5 0.5 1"></a-text>
+	    	<a-text value="Norton College" position="3.3752 1 1.12061" rotation="-90 0 0" text="" scale="0.5 0.5 1"></a-text>
+	    	<a-text value="City College" position="4.30975 1 -0.85163" rotation="-90 0 0" text="" scale="0.5 0.5 1"></a-text>
+	    	<a-text value="Richmond Park" position="-0.5216 1 0.62082" rotation="-90 0 0" text="" scale="0.5 0.5 1"></a-text>
  	 <!-- College Facts -->
-    	<a-text value="Richmond College was built in 1960 on the same land as Brook secondary school. In the coming years they shared classrooms between the two buildings. The College was later renamed to Stradbroke College around 1988/1989." position="-4.86517 1 -0.48576" rotation="-90 0 0" text="" scale="0.3 0.3 0.52488"></a-text>
-		  <a-text value="Stradbroke College then closed in 1990, Both the Richmond and Brook buildings were flattened creating housing space and Richmond park." position="-0.86842 1 -0.41332" rotation="-90 0 0" text="" scale="0.3 0.3 0.52488"></a-text>
-		  <a-text value="Granville College was built in 1961. It was later renamed to castle college around the time Richmond college was also renamed." position="-4.70221 1 0.47561" rotation="-90 0 0" text="" scale="0.3 0.3 0.52488"></a-text>
-		  <a-text value="Castle College was demolished in 2009. This space was then used to make housing space." position="2.32055 1 0.59197" rotation="-90 0 0" text="" scale="0.3 0.3 0.52488"></a-text>
-		  <a-text value="City College replaced Castle College with a new building across the road. The building cost around £52 million and was finished in 2010." position="3.15234 1 -0.36839" rotation="-90 0 0" text="" scale="0.3 0.3 0.52488"></a-text>
-		  <a-text value="Hillsborough College was built in 2005 costing £27 million; combining the Parson Cross and Loxley sites. An extension was built around the time Norton College was demolished to make up for the lost facilities, costing £8.8 million." position="1.10076 1 -0.37687" rotation="-90 0 0" text="" scale="0.3 0.3 0.52488"></a-text>
-		  <a-text value="The oldest parts of Noton College were built in the 1950’s. The College was mainly for journalism and photography. It was later demolished in 2015, to make space for a retail park that was finished in 2018." position="3.83637 1 0.65425" rotation="-90 0 0" text="" scale="0.3 0.3 0.52488"></a-text>
+    		<a-text value="Richmond College was built in 1960 on the same land as Brook secondary school. In the coming years they shared classrooms between the two buildings. The College was later renamed to Stradbroke College around 1988/1989." position="-4.86517 1 -0.48576" rotation="-90 0 0" text="" scale="0.3 0.3 0.52488"></a-text>
+		<a-text value="Stradbroke College then closed in 1990, Both the Richmond and Brook buildings were flattened creating housing space and Richmond park." position="-0.86842 1 -0.41332" rotation="-90 0 0" text="" scale="0.3 0.3 0.52488"></a-text>
+		<a-text value="Granville College was built in 1961. It was later renamed to castle college around the time Richmond college was also renamed." position="-4.70221 1 0.47561" rotation="-90 0 0" text="" scale="0.3 0.3 0.52488"></a-text>
+		<a-text value="Castle College was demolished in 2009. This space was then used to make housing space." position="2.32055 1 0.59197" rotation="-90 0 0" text="" scale="0.3 0.3 0.52488"></a-text>
+		<a-text value="City College replaced Castle College with a new building across the road. The building cost around £52 million and was finished in 2010." position="3.15234 1 -0.36839" rotation="-90 0 0" text="" scale="0.3 0.3 0.52488"></a-text>
+		<a-text value="Hillsborough College was built in 2005 costing £27 million; combining the Parson Cross and Loxley sites. An extension was built around the time Norton College was demolished to make up for the lost facilities, costing £8.8 million." position="1.10076 1 -0.37687" rotation="-90 0 0" text="" scale="0.3 0.3 0.52488"></a-text>
+		<a-text value="The oldest parts of Noton College were built in the 1950’s. The College was mainly for journalism and photography. It was later demolished in 2015, to make space for a retail park that was finished in 2018." position="3.83637 1 0.65425" rotation="-90 0 0" text="" scale="0.3 0.3 0.52488"></a-text>
 	<!-- Backgrounds -->
-		  <a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="-4.14309 0.9 -0.48227" scale="0.017 0.005 0.01" material="color:#000000" geometry=""></a-plane>
-    	<a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="-3.59501 0.9 -0.95894" scale="0.01 -0.002 0.01" material="color:#000000" geometry=""></a-plane>
-		  <a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="-0.86046 0.9 -0.87776" scale="0.01 -0.002 0.01" material="color:#000000" geometry=""></a-plane>
-      <a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="2.26734 0.9 -0.87575" scale="0.011 -0.002 0.01" material="color:#000000" geometry=""></a-plane>
- 		  <a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="-4.04689 0.9 0.49447" scale="0.015 0.003 0.00001" material="color:#000000" geometry=""></a-plane>
-    	<a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="-0.14792 0.9 0.61227" scale="0.009 0.002 0.01" material="color:#000000" geometry=""></a-plane>
+		<a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="-4.14309 0.9 -0.48227" scale="0.017 0.005 0.01" material="color:#000000" geometry=""></a-plane>
+    		<a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="-3.59501 0.9 -0.95894" scale="0.01 -0.002 0.01" material="color:#000000" geometry=""></a-plane>
+		<a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="-0.86046 0.9 -0.87776" scale="0.01 -0.002 0.01" material="color:#000000" geometry=""></a-plane>
+      		<a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="2.26734 0.9 -0.87575" scale="0.011 -0.002 0.01" material="color:#000000" geometry=""></a-plane>
+ 		<a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="-4.04689 0.9 0.49447" scale="0.015 0.003 0.00001" material="color:#000000" geometry=""></a-plane>
+    		<a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="-0.14792 0.9 0.61227" scale="0.009 0.002 0.01" material="color:#000000" geometry=""></a-plane>
    		<a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="-0.1675 0.9 -0.41024" scale="0.015 0.003 0.01" material="color:#000000" geometry=""></a-plane>
-   	  <a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="1.83071 0.9 -0.37965" scale="0.016 0.004 0.01" material="color:#000000" geometry=""></a-plane>
-   	  <a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="-3.43399 0.9 0.9742" scale="0.009 0.002 0.01" material="color:#000000" geometry=""></a-plane>
-      <a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="2.9822 0.9 0.58714" scale="0.014 0.002 0.01" material="color:#000000" geometry=""></a-plane>
-	    <a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="3.85092 0.9 -0.37414" scale="0.016 0.003 0.01" material="color:#000000" geometry=""></a-plane>
-    	<a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="2.30937 0.9 0.91645" scale="0.014 0.002 0.01" material="color:#000000" geometry=""></a-plane>
+   	 	<a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="1.83071 0.9 -0.37965" scale="0.016 0.004 0.01" material="color:#000000" geometry=""></a-plane>
+   	  	<a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="-3.43399 0.9 0.9742" scale="0.009 0.002 0.01" material="color:#000000" geometry=""></a-plane>
+      		<a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="2.9822 0.9 0.58714" scale="0.014 0.002 0.01" material="color:#000000" geometry=""></a-plane>
+	    	<a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="3.85092 0.9 -0.37414" scale="0.016 0.003 0.01" material="color:#000000" geometry=""></a-plane>
+    		<a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="2.30937 0.9 0.91645" scale="0.014 0.002 0.01" material="color:#000000" geometry=""></a-plane>
    	 	<a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="4.57977 0.9 0.64731" scale="0.016 0.004 0.01" material="color:#000000" geometry=""></a-plane>
-    	<a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="3.72175 0.9 1.13066" scale="0.008 0.002 0.01" material="color:#000000" geometry=""></a-plane>
-    	<a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="4.59225 0.9 -0.85083" scale="0.007 0.002 0.01" material="color:#000000" geometry=""></a-plane>
+    		<a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="3.72175 0.9 1.13066" scale="0.008 0.002 0.01" material="color:#000000" geometry=""></a-plane>
+    		<a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="4.59225 0.9 -0.85083" scale="0.007 0.002 0.01" material="color:#000000" geometry=""></a-plane>
 	<!-- Timeline -->
-		  <a-box color="tomato" depth="2" height="4" width="0.5" position="0.0571 0.84275 0.03289" rotation="-90 0 0" scale="18.58634 -0.02 0.03" material="color:#27622e" geometry=""></a-box>
+		<a-box color="tomato" depth="2" height="4" width="0.5" position="0.0571 0.84275 0.03289" rotation="-90 0 0" scale="18.58634 -0.02 0.03" material="color:#27622e" geometry=""></a-box>
   		<a-box color="tomato" depth="2" height="4" width="0.5" position="0.08069 0.7 -0.12426" rotation="-90 0 0" scale="0.208 -0.09383 0.03" material="color:#50b95c" geometry=""></a-box>
-		  <a-box color="tomato" depth="2" height="4" width="0.5" position="-4.27862 0.7 0.20086" rotation="-90 0 0" scale="0.208 -0.08635 0.03" material="color:#50b95c" geometry=""></a-box>
-		  <a-box color="tomato" depth="2" height="4" width="0.5" position="-4.48965 0.7 -0.29412" rotation="-90 0 0" scale="0.208 -0.16188 0.03" material="color:#50b95c" geometry=""></a-box>
-		  <a-box color="tomato" depth="2" height="4" width="0.5" position="2.39196 0.7 -0.20059" rotation="-90 0 0" scale="0.208 -0.12893 0.03" material="color:#50b95c" geometry=""></a-box>
-		  <a-box color="tomato" depth="2" height="4" width="0.5" position="2.94506 0.7 0.27973" rotation="-90 0 0" scale="0.208 -0.13199 0.03" material="color:#50b95c" geometry=""></a-box>
-		  <a-box color="tomato" depth="2" height="4" width="0.5" position="3.87015 0.7 0.27115" rotation="-90 0 0" scale="0.208 -0.13508 0.03" material="color:#50b95c" geometry=""></a-box>
-		  <a-box color="tomato" depth="2" height="4" width="0.5" position="3.17016 0.7 -0.21616" rotation="-90 0 0" scale="0.208 -0.11916 0.03" material="color:#50b95c" geometry=""></a-box>
+		<a-box color="tomato" depth="2" height="4" width="0.5" position="-4.27862 0.7 0.20086" rotation="-90 0 0" scale="0.208 -0.08635 0.03" material="color:#50b95c" geometry=""></a-box>
+		<a-box color="tomato" depth="2" height="4" width="0.5" position="-4.48965 0.7 -0.29412" rotation="-90 0 0" scale="0.208 -0.16188 0.03" material="color:#50b95c" geometry=""></a-box>
+		<a-box color="tomato" depth="2" height="4" width="0.5" position="2.39196 0.7 -0.20059" rotation="-90 0 0" scale="0.208 -0.12893 0.03" material="color:#50b95c" geometry=""></a-box>
+		<a-box color="tomato" depth="2" height="4" width="0.5" position="2.94506 0.7 0.27973" rotation="-90 0 0" scale="0.208 -0.13199 0.03" material="color:#50b95c" geometry=""></a-box>
+		<a-box color="tomato" depth="2" height="4" width="0.5" position="3.87015 0.7 0.27115" rotation="-90 0 0" scale="0.208 -0.13508 0.03" material="color:#50b95c" geometry=""></a-box>
+		<a-box color="tomato" depth="2" height="4" width="0.5" position="3.17016 0.7 -0.21616" rotation="-90 0 0" scale="0.208 -0.11916 0.03" material="color:#50b95c" geometry=""></a-box>
 	<!-- Years -->
-		  <a-text value="1960" position="-4.57757 1 0.03928" rotation="-90 0 0" text="" scale="0.5 0.5 1"></a-text>
-		  <a-text value="1970" position="-3.15011 1 0.0287" rotation="-90 0 0" text="" scale="0.5 0.5 1"></a-text>
-		  <a-text value="1980" position="-1.75587 1 0.03603" rotation="-90 0 0" text="" scale="0.5 0.5 1"></a-text>
-		  <a-text value="1990" position="-0.07601 1 0.04636" rotation="-90 0 0" text="" scale="0.5 0.5 1"></a-text>
-		  <a-text value="2000" position="1.47092 1 0.02573" rotation="-90 0 0" text="" scale="0.5 0.5 1"></a-text>
-		  <a-text value="2010" position="3.04052 1 0.03466" rotation="-90 0 0" text="" scale="0.5 0.5 1"></a-text>
-		  <a-text value="2020" position="4.42939 1 0.0283" rotation="-90 0 0" text="" scale="0.5 0.5 1"></a-text>
+		<a-text value="1960" position="-4.57757 1 0.03928" rotation="-90 0 0" text="" scale="0.5 0.5 1"></a-text>
+		<a-text value="1970" position="-3.15011 1 0.0287" rotation="-90 0 0" text="" scale="0.5 0.5 1"></a-text>
+		<a-text value="1980" position="-1.75587 1 0.03603" rotation="-90 0 0" text="" scale="0.5 0.5 1"></a-text>
+		<a-text value="1990" position="-0.07601 1 0.04636" rotation="-90 0 0" text="" scale="0.5 0.5 1"></a-text>
+		<a-text value="2000" position="1.47092 1 0.02573" rotation="-90 0 0" text="" scale="0.5 0.5 1"></a-text>
+		<a-text value="2010" position="3.04052 1 0.03466" rotation="-90 0 0" text="" scale="0.5 0.5 1"></a-text>
+		<a-text value="2020" position="4.42939 1 0.0283" rotation="-90 0 0" text="" scale="0.5 0.5 1"></a-text>
 	<!-- Year Backgrounds -->
-      <a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="-4.41838 1 0.04133" scale="-0.003 0.002 0.01" material="color:#000000" geometry=""></a-plane>
-		  <a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="-3.01643 0.95 0.03007" scale="0.003 -0.002 0.01" material="color:#000000" geometry=""></a-plane>
-      <a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="-1.6259 0.95 0.03757" scale="-0.003 0.002 0.01" material="color:#000000" geometry=""></a-plane>
-      <a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="0.06071 0.95 0.04183" scale="-0.003 0.002 0.01" material="color:#000000" geometry=""></a-plane>
-      <a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="1.60586 0.95 0.02606" scale="-0.003 0.002 0.01" material="color:#000000" geometry=""></a-plane>
-      <a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="3.18953 0.95 0.03879" scale="-0.003 0.0021 0.01" material="color:#000000" geometry=""></a-plane>
-      <a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="4.5886 0.95 0.04411" scale="-0.003 0.002 0.01" material="color:#000000" geometry=""></a-plane>	
+      		<a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="-4.41838 1 0.04133" scale="-0.003 0.002 0.01" material="color:#000000" geometry=""></a-plane>
+		<a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="-3.01643 0.95 0.03007" scale="0.003 -0.002 0.01" material="color:#000000" geometry=""></a-plane>
+      		<a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="-1.6259 0.95 0.03757" scale="-0.003 0.002 0.01" material="color:#000000" geometry=""></a-plane>
+      		<a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="0.06071 0.95 0.04183" scale="-0.003 0.002 0.01" material="color:#000000" geometry=""></a-plane>
+      		<a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="1.60586 0.95 0.02606" scale="-0.003 0.002 0.01" material="color:#000000" geometry=""></a-plane>
+      		<a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="3.18953 0.95 0.03879" scale="-0.003 0.0021 0.01" material="color:#000000" geometry=""></a-plane>
+      		<a-plane src="#ground" height="100" width="100" rotation="-90 0 0" position="4.5886 0.95 0.04411" scale="-0.003 0.002 0.01" material="color:#000000" geometry=""></a-plane>	
 	<!-- Hiro Marker -->
 	<a-marker-camera preset="hiro"></a-marker-camera></a-scene>
 </body>
